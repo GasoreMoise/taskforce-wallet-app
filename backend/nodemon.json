@@ -1,0 +1,24 @@
+{
+    "verbose": true,
+    "watch": [
+      "*.js",
+      "routes/",
+      "models/",
+      "controllers/",
+      "middlewares/",
+      "utils/",
+      "services/"
+    ],
+    "ignore": [
+      "node_modules/",
+      "tests/",
+      "coverage/",
+      "*.test.js",
+      "*.spec.js"
+    ],
+    "exec": "node -r dotenv/config server.js",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,json"
+  } 
